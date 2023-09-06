@@ -17,6 +17,8 @@ yLSF=np.array(A['NumLSF'])
 yLFT=np.array(A['limFlashtemp'])
 yFT=np.array(A['Flashtemp'])
 
+
+
 plt.figure(1,figsize=[160/25.4,90/25.4])
 plt.plot(xRA,yvw1,'-',color='blue',label='Pinion tangential velocity')
 plt.plot(xRA,yvw2,'-',color='red',label='wheel tangential velocity')
